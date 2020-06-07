@@ -23,24 +23,26 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/scss/main.scss'
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/vue-select.js'
   ],
   /*
   ** Nuxt.js dev-modules
   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module',
-    '@nuxtjs/vuetify'
+    '@nuxtjs/eslint-module'
   ],
   /*
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios'
   ],
   /*
   ** Build configuration
